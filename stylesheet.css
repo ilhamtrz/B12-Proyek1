@@ -1,0 +1,382 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+/* start jes */
+
+.containerheader {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(27, 27, 27, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+} 
+
+
+.brand {
+  font-size: 20px;
+  margin: 0 40px;
+  color:white;
+  position:absolute;
+  padding:40px 40px;
+}
+
+.containerheader ul li {
+list-style: none;
+display: inline-block;
+position: relative;
+}
+
+.containerheader ul li a {
+  display: block;
+  line-height: 65px;
+  font-size:10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.containerheader a:hover{
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.containerheader a:active{
+  background-color: rgb(46, 46, 46);
+}
+
+.container ul li:hover::after {
+  width: 100%;
+}
+
+.icon {
+  height: 15px;
+  padding-right: 10px;
+}
+
+
+.logo {
+  width: 80px;
+}
+
+/* end jes */
+
+
+/* begin laura */
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+} 
+
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(amanwana.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 200px;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 2px;
+  padding-top: 120px;
+  margin-bottom: 10px;
+  
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin: 20px 0px;
+}
+
+.penasaran{
+  background-color: #3DB2FF;
+  box-shadow:0 7px #043352;
+  animation: animation1 4s infinite;
+
+}
+
+.penasaran:active{
+  box-shadow:none;
+  top:7px;
+  position:relative;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #FF2442;
+  cursor:pointer;
+}
+
+
+.fa {
+  margin-right: 5px;
+}
+
+@keyframes animation1 {
+  0%   {background-color: #3DB2FF;}
+  25%  {background-color: #FFB830;}
+  50%  {background-color: #FF2442;}
+  100% {background-color: #3DB2FF;}
+}
+
+/* end laura */
+
+/* jeffrey begin*/
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+  font-size: 25px;
+  color:black;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lesson-wrapper a {
+  float: right;
+  text-decoration: none;
+}
+
+.judul_wisata{
+  color:black;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.judul_wisata:hover{
+  color:#FF2442;
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+.judul_wisata:active{
+  color:black;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  text-align:justify;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #5f5d60;
+}
+/*Jeffrey end*/
+
+/* Ilham start */
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  background-color: #FF2442;;
+  opacity: 0.7;
+  box-shadow:0 7px #062535;
+  
+}
+
+.message:hover{
+  background-color: #FF2442;;
+  opacity:1;
+}
+
+.message:active{
+  box-shadow:none;
+  top:7px;
+  position:relative;
+}
+
+footer img {
+  width:124px;
+}
+
+footer {
+  padding-top:30px;
+  color:#b3aeb5;
+  font-size:12px;
+}
+
+.form p{
+  text-align: left;
+  margin-bottom:10px;
+}
+
+.form input{
+  text-align: left;
+  width: 400px;
+  margin: 10px 5px 20px 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid #062535;
+  border-radius: 4px;
+}
+
+.form textarea{
+  text-align: left;
+  width: 865px;
+  height: 100px;
+  margin: 10px 5px 20px 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid #062535;
+  border-radius: 4px;
+}
+
+.form input, textarea::placeholder{
+  font-family: "Lucida Grande";
+}
+
+/* Ilham end */
+
+/* Gomgom start */
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  color: #fff;
+  background-color: black;
+}
+
+.footer img {
+  width: 50%;
+}
+
+.footer > * {
+  flex:  1 100%;
+}
+
+.l-footer {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+  flex: 1 0px;
+}
+
+.r-footer h2 {
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom:20px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.r-footer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.r-footer > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.box a {
+  color: #999;
+}
+
+.h-box {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.b-footer {
+  text-align: center;
+  color: #999;
+  padding-top: 50px;
+}
+
+.l-footer p {
+  color: #999;
+}   
+
+
+.r-footer > * {
+  flex: 1;
+}
+
+.features {
+  flex-grow: 2;
+}
+
+.r-footer {
+  flex: 2 0px;
+}
+/* Gomgom end */
